@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Encriptador/Desencriptador</title>
+        <link rel="stylesheet" href="/css/styles.css">
+    </head>
+
+    <body>
+
+        <header>
+            <h1>Encriptador y Desencriptador de Texto</h1>
+        </header>
+
+        <main>
+
+            <section class="input-area">
+                <label for="inputText">Introduce el texto a
+                    cifrar/descifrar:</label>
+                <textarea id="inputText" class="input-text"
+                    placeholder="Introduce el texto aquí solo en minúsculas y sin acentos"></textarea>
+                <div>
+                    <button id="encryptButton" class="btn">Cifrar</button>
+                    <button id="decryptButton" class="btn">Descifrar</button>
+                </div>
+            </section>
+
+            <section class="output-area">
+                <img src="/img/crypto.jpg" id="img-crypto"
+                    alt="Imagen Encriptador">
+                <textarea id="outputText" class="output-text" readonly
+                    placeholder="Aquí aparecerá el texto cifrado/descifrado"></textarea>
+                <button id="copyButton" class="btn">Copiar</button>
+            </section>
+
+        </main>
+
+        <footer>
+            <p>Creado por Miguel Angel Leon Scott - 2024</p>
+        </footer>
+
+        <script src="/js/script.js"></script>
+
+    </body>
+
+</html>
